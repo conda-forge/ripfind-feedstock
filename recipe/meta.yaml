@@ -21,7 +21,7 @@ requirements:
 
 test:
   commands:
-    - rf
+    - rf --help  # [build_platform == target_platform]
 
 about:
   home: https://github.com/matthiasdiener/ripfind
