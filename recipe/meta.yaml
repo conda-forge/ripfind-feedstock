@@ -10,7 +10,7 @@ source:
   sha256: d4df7d1f474cf15fde9f5b54aa4d0d631f3d4db6a75b2f399adb1dfa469a35d1
 
 build:
-  number: 0
+  number: 1 
 
 requirements:
   build:
@@ -21,7 +21,7 @@ requirements:
 
 test:
   commands:
-    - rf
+    - rf --help  # [build_platform == target_platform]
 
 about:
   home: https://github.com/matthiasdiener/ripfind
