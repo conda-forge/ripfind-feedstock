@@ -1,5 +1,5 @@
 {% set name = "ripfind" %}
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/matthiasdiener/ripfind/archive/refs/tags/{{ version }}.tar.gz
-  sha256: d4df7d1f474cf15fde9f5b54aa4d0d631f3d4db6a75b2f399adb1dfa469a35d1
+  sha256: b9d0d2a8890b3bae58b92bd58144223f1de694cba1b0e5c66b80b110c434648a
 
 build:
-  number: 1 
+  number: 0
 
 requirements:
   build:
@@ -30,7 +30,7 @@ about:
   license_file:
     - LICENSE
     - THIRDPARTY.yml
-  summary: 'A fast and lean replacement for the find command'
+  summary: A fast and lean replacement for the find command
   description: |
     A fast and lean replacement for the find command, modeled after the ripgrep
     package
