@@ -1,5 +1,5 @@
 {% set name = "ripfind" %}
-{% set version = "0.3.3" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/matthiasdiener/ripfind/archive/refs/tags/{{ version }}.tar.gz
-  sha256: b9d0d2a8890b3bae58b92bd58144223f1de694cba1b0e5c66b80b110c434648a
+  sha256: 9302c963d484cd965a62fd8a871bd81839ec19faf8a5c2cb72b3ac7d98edc676
 
 build:
   number: 0
